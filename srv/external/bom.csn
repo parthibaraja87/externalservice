@@ -1,0 +1,1403 @@
+{
+  "definitions": {
+    "bom": {
+      "kind": "service"
+    },
+    "bom.DBomheaderforexplosionOut": {
+      "kind": "type",
+      "elements": {
+        "alternative_item": {
+          "type": "cds.Boolean"
+        },
+        "alt_item_group": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "alt_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "assembly_indicator": {
+          "type": "cds.Boolean"
+        },
+        "assign_effect_vals": {
+          "type": "cds.Boolean"
+        },
+        "assy_scrap_itm_mat": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "as_selection_cond": {
+          "type": "cds.Boolean"
+        },
+        "base_qty_nxt_lvl": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "base_unit_nxt_lvl": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "base_uom": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "batch_entry": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "batch_mgmt": {
+          "type": "cds.Boolean"
+        },
+        "bill_of_material": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "bill_of_material_base_quant": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "bill_of_material_component": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "bill_of_material_comp_quant": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "bill_of_material_item_category": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "bill_of_material_item_number": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "bill_of_material_item_quantity": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "bill_of_material_item_unit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "Bill_Of_Material_Root": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "bill_of_material_root_variant": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "bill_of_material_variant": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "bill_of_material_variant_usage": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "bom_change_number": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "bulk_material": {
+          "type": "cds.Boolean"
+        },
+        "b_o_m_alternative_text": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "b_o_m_alt_nxt_lvl": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "b_o_m_category": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "b_o_m_cat_nxt_lvl": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "b_o_m_component_description": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "b_o_m_explosion_level": {
+          "type": "cds.Decimal",
+          "precision": 2,
+          "scale": 0
+        },
+        "b_o_m_hdr_matl_hier_node": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "B_O_M_Hdr_Root_Matl_Hier_Node": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "b_o_m_header_base_unit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "b_o_m_header_quantity_primary": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "b_o_m_item_description": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "b_o_m_item_is_discontinued": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "b_o_m_no_nxt_lvl": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "b_o_m_usage_nxt_lvl": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "b_o_m_version": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "b_o_m_version_status": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "b_o_m_vers_status_description": {
+          "type": "cds.String",
+          "length": 60
+        },
+        "change_number": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "chg_to_eng_chg_number": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "class": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "classification": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "class_type": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "commodity_code": {
+          "type": "cds.String",
+          "length": 17
+        },
+        "comp_maint_status": {
+          "type": "cds.String",
+          "length": 15
+        },
+        "comp_scrap_itm": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "comp_scrap_itm_mat": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "config_mat_var": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "config_multi_level": {
+          "type": "cds.Boolean"
+        },
+        "conf_bom_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "cost_element": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "counter": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "co_product": {
+          "type": "cds.Boolean"
+        },
+        "created_by_user": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "currency": {
+          "type": "cds.String",
+          "length": 5
+        },
+        "customs_preference": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "dat_hist_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "deletion_indicator": {
+          "type": "cds.Boolean"
+        },
+        "delivery_time_in_days": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "del_Ind_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "denominator": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 0
+        },
+        "discont_group": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "distribution_key": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "doc": {
+          "type": "cds.String",
+          "length": 22
+        },
+        "document_part": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "document_type": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "document_version": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "doc_number": {
+          "type": "cds.String",
+          "length": 25
+        },
+        "doc_reqd": {
+          "type": "cds.Boolean"
+        },
+        "doc_status": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "doc_type": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "doc_version": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "effective_out_date": {
+          "type": "cds.Timestamp"
+        },
+        "engineering_design": {
+          "type": "cds.Boolean"
+        },
+        "exception_bom": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "explosion_type": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "fixed_price_co_prod": {
+          "type": "cds.Boolean"
+        },
+        "fixed_quantity": {
+          "type": "cds.Boolean"
+        },
+        "follow_up_grp": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "follow_up_item": {
+          "type": "cds.Boolean"
+        },
+        "follow_up_product": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "formula_key": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "goods_receipt_duration_in_days": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "goods_recipient": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "header_record_id": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "header_validity_end_date": {
+          "type": "cds.Timestamp"
+        },
+        "header_validity_start_date": {
+          "type": "cds.Timestamp"
+        },
+        "hl_configuration": {
+          "type": "cds.Boolean"
+        },
+        "individual_coll": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "internal_obj_no": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "intra_material": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "issuing_plant": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "is_b_o_m_item_spare_part": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "is_c_a_d": {
+          "type": "cds.Boolean"
+        },
+        "is_material_provision": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "is_phantom_item": {
+          "type": "cds.Boolean"
+        },
+        "is_software_component": {
+          "type": "cds.Boolean"
+        },
+        "item_category": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "item_description_line_2": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "item_identification": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "item_node": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "item_sign": {
+          "type": "cds.Boolean"
+        },
+        "last_changed_by_user": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "last_change_date": {
+          "type": "cds.Timestamp"
+        },
+        "lead_time_offset": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "long_text_lang": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "low_level_code": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "maintenance_status": {
+          "type": "cds.String",
+          "length": 15
+        },
+        "material_component_price": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 3
+        },
+        "material_group": {
+          "type": "cds.String",
+          "length": 9
+        },
+        "material_is_configurable": {
+          "type": "cds.Boolean"
+        },
+        "Material_Name": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "material_type": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "mat_purity_in_perc": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "moving_price": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 3
+        },
+        "multiple_sel": {
+          "type": "cds.Boolean"
+        },
+        "m_r_p_type": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "net_scrap_indicator": {
+          "type": "cds.Boolean"
+        },
+        "no_cu_instances": {
+          "type": "cds.String",
+          "length": 6
+        },
+        "no_of_sheets": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "no_var_size_items": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "numerator": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 0
+        },
+        "object_description": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "object_type": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "obj_dep_assgt_no": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "operation_scrap_perc": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "oper_lto_unit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "oper_lt_offset": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "org_area": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "page_format": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "page_number": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "path": {
+          "type": "cds.Decimal",
+          "precision": 4,
+          "scale": 0
+        },
+        "path_predecessor": {
+          "type": "cds.Decimal",
+          "precision": 4,
+          "scale": 0
+        },
+        "plant": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "plantName": {
+          "type": "cds.String",
+          "length": 30
+        },
+        "plant_maintenance": {
+          "type": "cds.Boolean"
+        },
+        "plant_sp_matl_status": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "plt_sp_status_valid_from": {
+          "type": "cds.Timestamp"
+        },
+        "price_control": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "price_unit": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 0
+        },
+        "priority": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "procured_externally": {
+          "type": "cds.Boolean"
+        },
+        "prodn_supply_area": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "production_relevant": {
+          "type": "cds.Boolean"
+        },
+        "production_version": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "prod_order_issue_location": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "profit_center": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "purchasing_group": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "purchasing_organisation": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "qty_var_size_item": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "record_creation_date": {
+          "type": "cds.Timestamp"
+        },
+        "recurisve": {
+          "type": "cds.Boolean"
+        },
+        "recurs_allowed": {
+          "type": "cds.Boolean"
+        },
+        "reference_point": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "relevancy_to_costing": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "relevant_to_sales": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "required_component": {
+          "type": "cds.Boolean"
+        },
+        "requirement_segment": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "revision_level": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "scrap_qty_bun": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "serial_no_profile": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "size1": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "size2": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "size3": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "size_unit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "sort_string": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "special_procurement_type": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "special_proc_typ_itm": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "special_proc_typ_mastr": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "spec_proc_costing": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "standard_price": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 3
+        },
+        "status_text": {
+          "type": "cds.String",
+          "length": 16
+        },
+        "stock_segment": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "storage_location": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "strategy": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "sub_item_indicator": {
+          "type": "cds.Boolean"
+        },
+        "supplier": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "table_row": {
+          "type": "cds.Integer"
+        },
+        "tech_status_from": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "test_hist_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "totals_record_id": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "unit_of_measure": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "unloading_point": {
+          "type": "cds.String",
+          "length": 25
+        },
+        "uom_usage": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "usage_probability": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "validity_end_date": {
+          "type": "cds.Timestamp"
+        },
+        "validity_start_date": {
+          "type": "cds.Timestamp"
+        },
+        "valuation_category": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "variants_nxt_lvl": {
+          "type": "cds.Boolean"
+        },
+        "x_plant_material_status": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "x_plt_status_valid_from": {
+          "type": "cds.Timestamp"
+        }
+      }
+    },
+    "bom.A_BillOfMaterial": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "BillOfMaterialHeaderUUID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "BillOfMaterialVariantUsage": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialCategory": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterial": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "BillOfMaterialVariant": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "Material": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "Plant": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "IsMultipleBOMAlt": {
+          "type": "cds.Boolean"
+        },
+        "BOMHeaderInternalChangeCount": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "BOMUsagePriority": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "BillOfMaterialAuthsnGrp": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "BillOfMaterialVersion": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "BOMVersionStatus": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "IsVersionBillOfMaterial": {
+          "type": "cds.Boolean"
+        },
+        "IsLatestBOMVersion": {
+          "type": "cds.Boolean"
+        },
+        "IsConfiguredMaterial": {
+          "type": "cds.Boolean"
+        },
+        "BOMTechnicalType": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BOMGroup": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "BOMHeaderText": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "BOMAlternativeText": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "BillOfMaterialStatus": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "HeaderValidityStartDate": {
+          "type": "cds.Date"
+        },
+        "HeaderValidityEndDate": {
+          "type": "cds.Date"
+        },
+        "EngineeringChangeDocument": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "EngineeringChangeDocForEdit": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "ChgToEngineeringChgDocument": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "IsMarkedForDeletion": {
+          "type": "cds.Boolean"
+        },
+        "IsALE": {
+          "type": "cds.Boolean"
+        },
+        "BOMHeaderBaseUnit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "BOMHeaderQuantityInBaseUnit": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "RecordCreationDate": {
+          "type": "cds.Date"
+        },
+        "LastChangeDate": {
+          "type": "cds.Date"
+        },
+        "CreatedByUser": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "LastChangedByUser": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "BOMIsToBeDeleted": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "DocumentIsCreatedByCAD": {
+          "type": "cds.Boolean"
+        },
+        "LaboratoryOrDesignOffice": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "SelectedBillOfMaterialVersion": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "to_BillOfMaterialItem": {
+          "type": "cds.Association",
+          "target": "bom.A_BillOfMaterialItem",
+          "cardinality": {
+            "max": "*"
+          },
+          "on": [
+            {
+              "ref": [
+                "to_BillOfMaterialItem",
+                "BillOfMaterialHeaderUUID"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "BillOfMaterialHeaderUUID"
+              ]
+            }
+          ]
+        },
+        "to_BillOfMaterialUsage": {
+          "type": "cds.Association",
+          "target": "bom.A_BillOfMaterialUsage"
+        }
+      }
+    },
+    "bom.A_BillOfMaterialItem": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "BillOfMaterialItemUUID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "BillOfMaterialCategory": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterial": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "BillOfMaterialVariant": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "BillOfMaterialVersion": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "BillOfMaterialItemNodeNumber": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "BOMItemInternalChangeCount": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "ValidityStartDate": {
+          "type": "cds.Date"
+        },
+        "ValidityEndDate": {
+          "type": "cds.Date"
+        },
+        "EngineeringChangeDocForEdit": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "EngineeringChangeDocument": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "ChgToEngineeringChgDocument": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "InheritedNodeNumberForBOMItem": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "BOMItemRecordCreationDate": {
+          "type": "cds.Date"
+        },
+        "BOMItemCreatedByUser": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "BOMItemLastChangeDate": {
+          "type": "cds.Date"
+        },
+        "BOMItemLastChangedByUser": {
+          "type": "cds.String",
+          "length": 12
+        },
+        "BillOfMaterialComponent": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "BillOfMaterialItemCategory": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialItemNumber": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "BillOfMaterialItemUnit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "BillOfMaterialItemQuantity": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "IsAssembly": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "IsSubItem": {
+          "type": "cds.Boolean"
+        },
+        "BOMItemSorter": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "FixedQuantity": {
+          "type": "cds.Boolean"
+        },
+        "PurchasingGroup": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "Currency": {
+          "type": "cds.String",
+          "length": 5
+        },
+        "MaterialComponentPrice": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 3
+        },
+        "IdentifierBOMItem": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "MaterialPriceUnitQty": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 0
+        },
+        "ComponentScrapInPercent": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "OperationScrapInPercent": {
+          "type": "cds.Decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "IsNetScrap": {
+          "type": "cds.Boolean"
+        },
+        "NumberOfVariableSizeItem": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "QuantityVariableSizeItem": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "FormulaKey": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "ComponentDescription": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "BOMItemDescription": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "BOMItemText2": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "MaterialGroup": {
+          "type": "cds.String",
+          "length": 9
+        },
+        "DocumentType": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "DocNumber": {
+          "type": "cds.String",
+          "length": 25
+        },
+        "DocumentVersion": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "DocumentPart": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "ClassNumber": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "ClassType": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "ResultingItemCategory": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "DependencyObjectNumber": {
+          "type": "cds.String",
+          "length": 18
+        },
+        "ObjectType": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "IsClassificationRelevant": {
+          "type": "cds.Boolean"
+        },
+        "IsBulkMaterial": {
+          "type": "cds.Boolean"
+        },
+        "BOMItemIsSparePart": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BOMItemIsSalesRelevant": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "IsProductionRelevant": {
+          "type": "cds.Boolean"
+        },
+        "BOMItemIsPlantMaintRelevant": {
+          "type": "cds.Boolean"
+        },
+        "BOMItemIsCostingRelevant": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "IsEngineeringRelevant": {
+          "type": "cds.Boolean"
+        },
+        "SpecialProcurementType": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "IsBOMRecursiveAllowed": {
+          "type": "cds.Boolean"
+        },
+        "OperationLeadTimeOffset": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "OpsLeadTimeOffsetUnit": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "IsMaterialProvision": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BOMIsRecursive": {
+          "type": "cds.Boolean"
+        },
+        "DocumentIsCreatedByCAD": {
+          "type": "cds.Boolean"
+        },
+        "DistrKeyCompConsumption": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "DeliveryDurationInDays": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "Creditor": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "CostElement": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "Size1": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "Size2": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "Size3": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "UnitOfMeasureForSize1To3": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "GoodsReceiptDuration": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "PurchasingOrganization": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "RequiredComponent": {
+          "type": "cds.Boolean"
+        },
+        "MultipleSelectionAllowed": {
+          "type": "cds.Boolean"
+        },
+        "ProdOrderIssueLocation": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "MaterialIsCoProduct": {
+          "type": "cds.Boolean"
+        },
+        "ExplosionType": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "AlternativeItemGroup": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "FollowUpGroup": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "DiscontinuationGroup": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "IsConfigurableBOM": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "ReferencePoint": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "LeadTimeOffset": {
+          "type": "cds.Decimal",
+          "precision": 3,
+          "scale": 0
+        },
+        "ProductionSupplyArea": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "IsDeleted": {
+          "type": "cds.Boolean"
+        },
+        "IsALE": {
+          "type": "cds.Boolean"
+        },
+        "BillOfMaterialHeaderUUID": {
+          "type": "cds.UUID"
+        },
+        "to_BillOfMaterial": {
+          "type": "cds.Association",
+          "target": "bom.A_BillOfMaterial"
+        },
+        "to_BOMItemCategory": {
+          "type": "cds.Association",
+          "target": "bom.A_BOMItemCategory"
+        }
+      }
+    },
+    "bom.A_BillOfMaterialUsage": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "BillOfMaterialVariantUsage": {
+          "key": true,
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialVariantUsageDesc": {
+          "type": "cds.String",
+          "length": 30
+        },
+        "to_BillOfMaterialUsageText": {
+          "type": "cds.Association",
+          "target": "bom.A_BillOfMaterialUsageText"
+        }
+      }
+    },
+    "bom.A_BillOfMaterialUsageText": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "Language": {
+          "key": true,
+          "type": "cds.String",
+          "length": 2
+        },
+        "BillOfMaterialVariantUsage": {
+          "key": true,
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialVariantUsageDesc": {
+          "type": "cds.String",
+          "length": 30
+        }
+      }
+    },
+    "bom.A_BOMItemCategory": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "BillOfMaterialItemCategory": {
+          "key": true,
+          "type": "cds.String",
+          "length": 1
+        },
+        "FixedItemCategory": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialItemCategoryDesc": {
+          "type": "cds.String",
+          "length": 30
+        },
+        "to_BOMItemCategoryText": {
+          "type": "cds.Association",
+          "target": "bom.A_BOMItemCategoryText"
+        }
+      }
+    },
+    "bom.A_BOMItemCategoryText": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "Language": {
+          "key": true,
+          "type": "cds.String",
+          "length": 2
+        },
+        "BillOfMaterialItemCategory": {
+          "key": true,
+          "type": "cds.String",
+          "length": 1
+        },
+        "BillOfMaterialItemCategoryDesc": {
+          "type": "cds.String",
+          "length": 30
+        }
+      }
+    }
+  }
+}
